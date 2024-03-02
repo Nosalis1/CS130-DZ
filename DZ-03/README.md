@@ -2,7 +2,7 @@
 
 ## Overview
 
-This homework task aims to [briefly describe the objective of the task].
+This homework task aims to test the knowledge of tasks for ***Arrays and Strings***.
 
 ## Table of Contents
 
@@ -18,31 +18,36 @@ This homework task aims to [briefly describe the objective of the task].
 
 ## Description
 
-12: Formirati niz A[] od n slučajno odabranih elemenata iz intervala od 0-100. Takav niz
-    podeli na dva niza: nizB[] sadrži elemente manje od 50, niz C[] sadrži ostale elemente.
+#### 12
+    Form an array A[] of n randomly selected elements from the interval 0-100.
+    Divide such an array into two arrays: 
+        array B[] contains elements less than 50
+        array C[] contains the remaining elements.
 
-27: Napisati funkciju koja izbacuje sve nule sa kraja stringa.
+#### 27
+    Write a function that removes all trailing zeros from a string.
 
 ## Requirements
 
-- [List any libraries, compilers, or development environments required]
-- [Any prerequisite knowledge or skills needed]
+- A C compiler such as GCC or Clang.
+- Basic knowledge of C programming language.
 
 ## Usage
 
 To use this program:
 
-1. [Specify any steps or commands needed to run the program]
-2. [Provide instructions for input parameters, if applicable]
-3. [Explain how to interpret the output, if applicable]
+1. Compile the program using a C compiler.
+2. Run the compiled executable.
+3. Follow the prompts to input the required values.
 
 ## Compilation
 
 To compile the program:
 
-1. [List any necessary compiler flags or dependencies]
-2. [Specify any build configurations required]
-
+1. Use the following command with GCC:
+   ```
+   gcc main.c -o main
+   ```
 ## Examples
 
 - **Input**: [Provide an example input]
@@ -54,9 +59,9 @@ To compile the program:
 
 If you'd like to contribute to this project, please follow these guidelines:
 
-1. [Explain how others can report issues]
-2. [Provide instructions for submitting feature requests]
-3. [Describe the process for making code contributions]
+1. Report any issues or bugs by creating a new issue on GitHub.
+2. Submit feature requests or suggestions via GitHub issues.
+3. Fork the repository, make your changes, and submit a pull request.
 
 ## License
 
@@ -64,8 +69,8 @@ This homework task is licensed under the [MIT License](LICENSE.md). For more inf
 
 ## Acknowledgments
 
-- [Mention any individuals, resources, or organizations that contributed to the completion of the homework task]
+No specific acknowledgments are required for this task.
 
 ## Contact
 
-For any questions or concerns regarding this homework task, please contact [Author Name] at [Author Email].
+For any questions or concerns regarding this homework task, please contact Aleksa at aleksa.stanojevic.5726@metropolitan.ac.rs.
