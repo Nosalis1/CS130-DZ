@@ -45,25 +45,30 @@ To use this program:
 To compile the program:
 
 1. Use the following command with GCC:
+   ```
    gcc main.c -o main
-
+   ```
 ## Examples
 
 - **Input**:
-- Enter value in RSD: 1500
+   ```
+  Enter value in RSD: 894
+   ```
 - **Output**:
     ```
-    500 RSD: 3
-    100 RSD: 0
-    1 RSD: 0
+    500 RSD: 1
+    100 RSD: 3
+    1 RSD: 94
     ```
 
 - **Input**:
-- Enter hours: 8760
+   ```
+  Enter hours: 27401
+   ```
 - **Output**:
     ```
-    Years: 1
-    Days: 0
+    Years: 3
+    Days: 46
     ```
 
 ## Contributing
@@ -84,4 +89,4 @@ No specific acknowledgments are required for this task.
 
 ## Contact
 
-For any questions or concerns regarding this homework task, please contact [Author Name] at [Author Email].
+For any questions or concerns regarding this homework task, please contact Aleksa at aleksa.stanojevic.5726@metropolitan.ac.rs.
