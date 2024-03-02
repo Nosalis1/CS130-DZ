@@ -1,74 +1,47 @@
-# Homework Week 5: Task 7,27
+# Structures, Unions, Memory management
 
-## Overview
+## Week : 5
 
-This homework task aims to [briefly describe the objective of the task].
+Each student completes two tasks from the list. Other tasks can be used for practice and exam preparation, but you don't
+submit them for review by assistants.
 
-## Table of Contents
+Formula for selecting the 1st task: 2378 % 20 + 1 = 19 - the student completes task 19
 
-1. [Description](#description)
-2. [Requirements](#requirements)
-3. [Usage](#usage)
-4. [Compilation](#compilation)
-5. [Examples](#examples)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
-9. [Contact](#contact)
+Formula for selecting the 2nd task: 2378 % 20 + 21 = 39 - the student completes task 39
 
-## Description
+## Task 1
 
-7: Napisati funkciju koja oduzima dva_kompleksna broja i rezultat vraća preko liste
-   argumenata (kao pokazivač). Kompleksni broj predstaviti korišćenjem strukture.
-   Testirati rad funkcije u glavnom programu.
+- Task Index 5726 % 20 + 1 = `7`.
+- Task description:
 
-27: Napisati funkciju koja će da služi za “sažimanje” niza, tako da se svaki podniz nula
-    zameni jednom nulom. Funkcija kao razultat vraća dinamički niz koji se dobija
-    sažimanjem početnog niza.
+```text
+Write a function that subtracts two complex numbers and returns the result via function arguments (using pointers). 
+Represent complex numbers using a structure. Test the function in the main program.
+```
 
-## Requirements
+### Usage
 
-- [List any libraries, compilers, or development environments required]
-- [Any prerequisite knowledge or skills needed]
+* Input: ComplexNumber{3.5,2.0},ComplexNumber{1.5,1.0}
+    * Output:
+      ```text
+      Result: 2.0 + 1.0i
+      ```
 
-## Usage
+## Task 2
 
-To use this program:
+- Task Index 5726 % 20 + 21 = `27`.
+-
+    - Task description:
 
-1. [Specify any steps or commands needed to run the program]
-2. [Provide instructions for input parameters, if applicable]
-3. [Explain how to interpret the output, if applicable]
+```text
+Write a function that compresses an array so that each sequence of consecutive zeros is replaced by a single zero.
+The function should return a dynamically allocated array obtained by compressing the original array.
+```
 
-## Compilation
+### Usage
 
-To compile the program:
-
-1. [List any necessary compiler flags or dependencies]
-2. [Specify any build configurations required]
-
-## Examples
-
-- **Input**: [Provide an example input]
-    - **Output**: [Provide the expected output]
-
-[Provide additional examples if necessary]
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. [Explain how others can report issues]
-2. [Provide instructions for submitting feature requests]
-3. [Describe the process for making code contributions]
-
-## License
-
-This homework task is licensed under the [MIT License](LICENSE.md). For more information, see the [LICENSE.md](LICENSE.md) file.
-
-## Acknowledgments
-
-- [Mention any individuals, resources, or organizations that contributed to the completion of the homework task]
-
-## Contact
-
-For any questions or concerns regarding this homework task, please contact [Author Name] at [Author Email].
+* Input: { 1, 0, 0, 3, 0, 0, 0, 5, 0, 0, 0, 0, 2 }
+    * Output:
+      ```text
+      Compressed array: 1 0 3 0 5 0 2
+      ```

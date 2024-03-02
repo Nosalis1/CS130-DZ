@@ -1,92 +1,66 @@
-# Homework Week 1: Task 12,27
+# Introduction to the C language
 
-## Overview
+## Week : 1
 
-This homework task aims to test the knowledge of tasks for ***Introduction to the C language***.
+Each student completes two tasks from the list. Other tasks can be used for practice and exam preparation, but you don't
+submit them for review by assistants.
 
-## Table of Contents
+Formula for selecting the 1st task: 1 + 2378 % 15 = 9 - the student completes task 9
 
-1. [Description](#description)
-2. [Requirements](#requirements)
-3. [Usage](#usage)
-4. [Compilation](#compilation)
-5. [Examples](#examples)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
-9. [Contact](#contact)
+Formula for selecting the 2nd task: 16 + 2378 % 15 = 24 - the student completes task 24
 
-## Description
+## Task 1
 
-#### 12 
-    Write a program that prompts the user to input the price of a product in dinars,
-    then calculates and displays the number of 500 dinar bills, 100 dinar bills,
-    and 1 dinar coins needed to pay for that product.
+- Task Index 1 + 5726 % 15 = `12`.
+- Task description:
 
-#### 27
-    Write a program that asks the user to input hours and then outputs the corresponding years and days.
-    We will assume each year has 365 days.
+```text
+Write a program that prompts the user to enter the value of a product in dinars,
+then calculates and displays how many banknotes of 500 dinars, 100 dinars,
+and 1 dinar are needed to pay for that product.
+```
 
-## Requirements
+### Usage
 
-- A C compiler such as GCC or Clang.
-- Basic knowledge of C programming language.
+* Input: 1858
+    * Output:
+      ```text
+      500 RSD: 3
+      100 RSD: 3
+      1 RSD: 58
+      ```
 
-## Usage
+* Input: 215
+    * Output:
+      ```text
+      500 RSD: 0
+      100 RSD: 2
+      1 RSD: 15
+      ```
 
-To use this program:
+## Task 2
 
-1. Compile the program using a C compiler.
-2. Run the compiled executable.
-3. Follow the prompts to input the required values.
+- Task Index 16 + 5726 % 15 = `27`.
+-
+    - Task description:
 
-## Compilation
+```text
+Write a program that asks the user to input hours and based on them prints out years and days.
+We will assume that each year has 365 days.
+```
 
-To compile the program:
+### Usage
 
-1. Use the following command with GCC:
-   ```
-   gcc main.c -o main
-   ```
-## Examples
+* Input: 87600
+    * Output:
+      ```text
+      Years: 10
+      Days: 0
+      ```
 
-- **Input**:
-   ```
-  Enter value in RSD: 894
-   ```
-- **Output**:
-    ```
-    500 RSD: 1
-    100 RSD: 3
-    1 RSD: 94
-    ```
-
-- **Input**:
-   ```
-  Enter hours: 27401
-   ```
-- **Output**:
-    ```
-    Years: 3
-    Days: 46
-    ```
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. Report any issues or bugs by creating a new issue on GitHub.
-2. Submit feature requests or suggestions via GitHub issues.
-3. Fork the repository, make your changes, and submit a pull request.
-
-## License
-
-This homework task is licensed under the [MIT License](../LICENSE.md). For more information, see the [LICENSE.md](../LICENSE.md) file.
-
-## Acknowledgments
-
-No specific acknowledgments are required for this task.
-
-## Contact
-
-For any questions or concerns regarding this homework task, please contact Aleksa at aleksa.stanojevic.5726@metropolitan.ac.rs.
+* Input: 15000
+    * Output:
+      ```text
+      Years: 1
+      Days: 241
+      ```

@@ -1,74 +1,52 @@
-# Homework Week 4: Task 7,27
+# Pointers
 
-## Overview
+## Week : 4
 
-This homework task aims to [briefly describe the objective of the task].
+Each student completes two tasks from the list. Other tasks can be used for practice and exam preparation, but you don't
+submit them for review by assistants.
 
-## Table of Contents
+Formula for selecting the 1st task: 2378 % 20 + 1 = 19 - the student completes task 19
 
-1. [Description](#description)
-2. [Requirements](#requirements)
-3. [Usage](#usage)
-4. [Compilation](#compilation)
-5. [Examples](#examples)
-6. [Contributing](#contributing)
-7. [License](#license)
-8. [Acknowledgments](#acknowledgments)
-9. [Contact](#contact)
+Formula for selecting the 2nd task: 2378 % 20 + 21 = 39 - the student completes task 39
 
-## Description
+## Task 1
 
-7: Napisati funkciju void zbir_delilaca (int n, int *); kojom se izračunava zbir delilaca broja n.
-   Zatim u main funkciji učitati broj k i na ekranu ispisati zbir delilaca svakog od brojeva iz intervala
-   od 1 do k.
+- Task Index 5726 % 20 + 1 = `12`.
+- Task description:
 
-27: Napisati funkciju čiji je rezultat pokazivač na string u koji je izdvojen podstring datog stringa
-    s koji prethodi prvom pojavljivanju datog stringa sl. Implementirati funkciju isključivo korišćenjem
-    pokazivača.
+```text
+Write a function void sum_of_divisors(int n, int *); which calculates the sum of divisors of the number n.
+Then, in the main function, input the number k and display on the screen the sum of divisors of each number from the interval from 1 to k.
+```
 
-## Requirements
+### Usage
 
-- [List any libraries, compilers, or development environments required]
-- [Any prerequisite knowledge or skills needed]
+* Input: 5
+    * Output:
+      ```text
+      Sum of divisors of 1 is 0
+      Sum of divisors of 2 is 1
+      Sum of divisors of 3 is 1
+      Sum of divisors of 4 is 3
+      Sum of divisors of 5 is 1
+      ```
 
-## Usage
+## Task 1
 
-To use this program:
+- Task Index 5726 % 20 + 21 = `27`.
+- Task description:
 
-1. [Specify any steps or commands needed to run the program]
-2. [Provide instructions for input parameters, if applicable]
-3. [Explain how to interpret the output, if applicable]
+```text
+Write a function that returns a pointer to a string containing the substring of the given string s that precedes the first occurrence of the specified substring.
+Implement the function using only pointers.
+```
 
-## Compilation
+### Usage
 
-To compile the program:
-
-1. [List any necessary compiler flags or dependencies]
-2. [Specify any build configurations required]
-
-## Examples
-
-- **Input**: [Provide an example input]
-    - **Output**: [Provide the expected output]
-
-[Provide additional examples if necessary]
-
-## Contributing
-
-If you'd like to contribute to this project, please follow these guidelines:
-
-1. [Explain how others can report issues]
-2. [Provide instructions for submitting feature requests]
-3. [Describe the process for making code contributions]
-
-## License
-
-This homework task is licensed under the [MIT License](LICENSE.md). For more information, see the [LICENSE.md](LICENSE.md) file.
-
-## Acknowledgments
-
-- [Mention any individuals, resources, or organizations that contributed to the completion of the homework task]
-
-## Contact
-
-For any questions or concerns regarding this homework task, please contact [Author Name] at [Author Email].
+* Input: The quick brown fox jumps over the lazy dog
+    * Output:
+      ```text
+      String: The quick brown fox jumps over the lazy dog
+      Substring: fox
+      Substring found: The quick brown
+      ```
