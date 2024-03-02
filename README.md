@@ -87,9 +87,9 @@ typedef unsigned long long size_t;
 ```
 
 ```c++
-using unsigned int = u_int32;
-using unsigned long long = size_t;
-using const char* = c_str;
+using u_int32 = unsigned int;
+using size_t = unsigned long long;
+using c_str = const char*;
 ```
 
 - **Constants**: Constants are defined using the `const` keyword and are written in all uppercase letters with
